@@ -1,0 +1,9 @@
+.question-card{
+    width: 600px;
+    margin-top: 10px;
+    margin-left: calc(50% - 300px);
+  }
+
+  .question-card > div{
+      padding: 10px;
+  }

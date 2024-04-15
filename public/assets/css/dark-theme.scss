@@ -1,0 +1,222 @@
+
+body.skin-dark{
+    :root {
+        --primarycolor: #0069b5;
+    }
+    $primary-color: var(--primarycolor);
+    background-color: #15161b;
+    color: #bdbdbd !important;
+    $navbar-color :#15161b;
+    $sidebar-color : #1f2029;
+    $border-color : rgba(255, 255, 255, 0.075) !important;
+    .navbar .navbar-brand-wrapper, .navbar-menu-wrapper{
+        background: $navbar-color;
+    }
+    .sidebar{
+        background: $sidebar-color;
+    }
+    .btn{
+        box-shadow: none !important;
+    }
+    .content-wrapper, .card.main-card{
+        background-color: #15161b;
+        box-shadow: none;
+    }
+    .menu-active, .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link{
+       background-color: rgba(21, 22, 27, 0.75);
+    }
+    .nav-tabs .nav-link:hover{
+       border-color: transparent;
+    }
+    .curriculum-tab .right-tab .card .bg-white{
+        background-color: #15161b !important;
+    }
+    .react-datepicker-wrapper input{
+        background-color: #1f2029;
+    }
+    .react-datepicker, .react-datepicker-popper .react-datepicker__header,
+    .react-datepicker__time-container .react-datepicker__time{
+        background-color: #1f2029;
+        border-color: $border-color;
+    }
+    .form-check .form-check-label input[type="radio"] + .input-helper:after{
+        border-color: #15161b;
+    }
+    // @media (min-width: 992px){
+    //     .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse,
+    //     .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapsing,
+    //     .sidebar-icon-only .sidebar .nav .nav-item.hover-open {
+    //         background: #15161b !important;
+    //         box-shadow: none;
+    //         border: 1px solid $border-color;
+    //     }
+    // }
+    .nav-item.hover-open .collapse.show{
+        background: #15161b !important;
+        box-shadow: 4px 4px 7px 0px rgba(31,32,41,0.75) !important;
+        border: 1px solid rgba(255, 255, 255, 0.075) !important;
+    }
+    .modal-content{
+        background-color: #1f2029;
+        .modal-header{
+            border-bottom : 1px solid $border-color;
+        }
+        .modal-footer{
+            border-top : 1px solid $border-color;
+        }
+    }
+    .choose-template-modal.modal-lg{
+        .tab-content{
+          border: 1px solid $border-color;
+        }
+    }
+    .file-div, .img-thumbnail{
+        border-color: $border-color;
+    }
+    .card{
+        background-color: #1f2029;
+        box-shadow: 0 1px 4px 0 #0a0f1b9c;
+        // border: 1px solid $border-color;
+        .card-header{
+            background-color: #1f2029;
+            border-bottom: 1px solid $border-color;
+        }
+    }
+    .course-create-div{
+        background-color: #1f2029;
+        .div-info{
+            color: inherit;
+        }
+        &:hover{
+           box-shadow: inset 0 0 0 $primary-color, 0 5px 0 0 $primary-color, 0 10px 10px #222 !important
+        }
+    }
+    .integration-card{
+        .card:hover {
+            box-shadow: inset 0 0 0 $primary-color, 0 5px 0 0 $primary-color, 0 10px 10px #222 !important;
+          }
+    }
+    .course-card .card{
+        border: 1px solid $border-color;
+    }
+    .bg-white, .form-control, .dataTables_wrapper select{
+        background-color:#373b4a !important;
+        color : inherit;
+    }
+    .img-thumbnail{
+        border-color: rgba(255, 255, 255, 0.125) !important;
+    }
+    .file-upload{
+        background: transparent;
+    }
+    .tbl-list-card{
+        .tbl-header {
+          color: #bdbdbd;
+          background-color: #15161b;
+        }
+        .tbl-row{
+          border-bottom : 1px solid #272931;
+        }
+    }
+    .case-list-view .tbl-cell .form-control {
+        border: 1px solid #272931;
+        border-bottom-color:  #272931 !important;
+    }
+    .table{
+        color: inherit;
+    }
+    .btn-light,.badge-secondary{
+            color: #fff;
+            background-color: #7c757d;
+            border-color: #6c757d;
+            box-shadow: none;
+    }
+    .dashboard-tabs > .tab-content, .curriculum-tab .assets-btn, .curriculum-tab .left-tab{
+        background-color: inherit;
+        border-color: rgba(255, 255, 255, 0.075) !important;
+    }
+    .settings-tab .left-tab, .users-tab .left-tab{
+        border-color: rgba(255, 255, 255, 0.075) !important;
+    }
+    .table-bordered {
+        border: 1px solid $border-color;
+    }
+    .users-tab .tbl-header{
+        background-color: #1f2029;
+    }
+    .css-yk16xz-control, .css-1pahdxg-control, .css-2613qy-menu, .css-2613qy-menu-list, .css-2613qy-option{
+        background-color: #373b4a !important;
+    }
+    .can-toggle label .can-toggle__switch {
+        background:#373b4a
+    }
+    .template-images li, .template-images .img-preview,
+    .certificate-img li, .certificate-img .img-preview{
+        border-color: rgba(255, 255, 255, 0.075);
+    }
+    .certificate-img .check-icon{
+        background-color: #15161b;
+    }
+    .form-control:disabled, .dataTables_wrapper select:disabled{
+        opacity: 0.5 !important;
+        // background-color: #15161b !important;
+    }
+    .curriculum-tab .chapter-card .chapter-content{
+        border-color: $border-color;
+    }
+    .publish-tab .card {
+        box-shadow: none;
+        border: 1px dotted rgba(255, 255, 255, 0.075);
+        background: #15161b;
+    }
+    .adminstration-tabs > .tab-content{
+        background-color: #1f2029;
+        box-shadow: 0 1px 4px 0 #0a0f1b9c;
+        border-color: transparent !important;
+    }
+    .form-check .form-check-label{
+        color: inherit;
+    }
+    .dropdown .dropdown-menu{
+        background-color: #15161b;
+        border-color: $border-color;
+        box-shadow: none;
+        .dropdown-item:hover, .dropdown-item:focus{
+            background-color: #1f2029;
+        }
+    }
+    .footer{
+        color: #bdbdbd;
+        background-color: #15161b;
+        border-top : 1px solid $border-color;
+    }
+    .ck.ck-editor__main>.ck-editor__editable,
+    .ck.ck-reset, .ck.ck-toolbar.ck-toolbar_grouping,
+    .ck.ck-toolbar{
+        background-color: #1f2029;
+        border-color: $primary-color;
+    }
+    .ck.ck-button, a.ck.ck-button{
+        color: #bdbdbd;
+        &:hover{
+            color: #000;
+        }
+    }
+    // iframe#iframe_dicom html body{
+    //         background-color: red;
+    //         border-color: $border-color;
+    // }
+    .dicom-web-modal.modal-xl .modal-body iframe,
+    .file-preview-modal.modal-xl .modal-body iframe{
+        border-color: $border-color;
+    }
+    ._2iA8p44d0WZ-WqRBGcAuEV {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .report-user-modal, .report-course-modal{
+    .tbl-list-card .tbl-header{
+            color: #bdbdbd;
+            background-color:#15161b;
+      }
+    }
+}

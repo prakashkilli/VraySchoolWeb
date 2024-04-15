@@ -1,0 +1,22 @@
+/*Bootstrap CSS*/
+@import "bootstrap.min.css";
+
+/* Animate*/
+@import "animate.min.css";
+
+/* Flaticon icons*/
+@import "flaticon.css";
+
+/*Magnific Popup icons*/
+@import "magnific-popup.css";
+
+/* Meanmenu css*/
+@import "meanmenu.css";
+
+/* Themify css*/
+@import "themify-icons.css";
+
+/* OWL CSS*/
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";
+
